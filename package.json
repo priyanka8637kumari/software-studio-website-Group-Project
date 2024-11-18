@@ -1,0 +1,33 @@
+{
+  "name": "webpack-final-project",
+  "version": "1.0.0",
+  "description": "final project with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config main.js",
+    "start": "webpack serve --open",
+    "format": "prettier --write 'src/**/*.{js,jsx,css,html}'"
+  },
+  "author": "Profira Rusu",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@eslint/js": "^9.15.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "style-loader": "^4.0.0",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
